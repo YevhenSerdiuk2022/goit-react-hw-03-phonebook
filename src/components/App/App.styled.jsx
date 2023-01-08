@@ -6,5 +6,5 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    font-size: ${p => p.theme.fontSize.m}px;
 `;
